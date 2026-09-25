@@ -18,7 +18,7 @@ coexist.
 Add this repository as a package dependency and select the
 `LevelPlayMyTargetAdapter` product instead of LevelPlay's `MyTargetAdapter`.
 Versions match the LevelPlay adapter versions one-to-one: version
-`5.12.0` of this package uses LevelPlay adapter `5.12.0`.
+`5.13.0` of this package uses LevelPlay adapter `5.13.0`.
 
 ## License
 
