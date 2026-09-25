@@ -4,13 +4,13 @@ import PackageDescription
 let package = Package(
     name: "XMediatorLevelPlayMyTargetAdapterCompatibility",
     platforms: [
-        .iOS(.v14),
+        .iOS("14.0"),
     ],
     products: [
         .library(name: "LevelPlayMyTargetAdapter", targets: ["LevelPlayMyTargetAdapterWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ironsource-mobile/LevelPlay-MyTarget-Adapter-Swift-Package.git", exact: "5.12.0"),
+        .package(url: "https://github.com/ironsource-mobile/LevelPlay-MyTarget-Adapter-Swift-Package.git", exact: "5.13.0"),
     ],
     targets: [
         .target(
